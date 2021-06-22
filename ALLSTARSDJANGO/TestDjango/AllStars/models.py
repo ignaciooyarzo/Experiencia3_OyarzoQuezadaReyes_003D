@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+#Create your models here.
 
 class Categoria(models.Model):
     idCategoria = models.IntegerField(primary_key=True, verbose_name='Id de categoria')
